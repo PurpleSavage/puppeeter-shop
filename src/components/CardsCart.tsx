@@ -7,7 +7,7 @@ import { FaDeleteLeft } from "react-icons/fa6";
 
 
 const CardsCart:React.FC<{element:product}> = ({element}) => {
-    const {tagProduct,nameProduct,description,urlImg,titleColor,quantity}=element
+    const {tagProduct,nameProduct,description,urlImg,titleColor,quantity,price}=element
     const listCart=useCartStore(state=>state.listCart)
     const  increaseElementCart=useCartStore(state=>state. increaseElementCart)
     const removeToCart=useCartStore(state=>state.removeToCart)
@@ -31,6 +31,7 @@ const CardsCart:React.FC<{element:product}> = ({element}) => {
             <p className='text-md text-center text-white px-3 '>
                 ¡Sabor explosivo! <br/>{description}
             </p>
+            <p>¨Precio: s/ {price}</p>
             <div className="flex items-center gap-4 pb-4">
                 <button 
                     className="bg-[#8a0645] px-4 py-1 rounded-md text-white"
