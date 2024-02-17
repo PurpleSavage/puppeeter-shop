@@ -51,6 +51,6 @@ export const listProducts: product[] = [
 ]
 
 
-export const IMG_LOGO = "https://firebasestorage.googleapis.com/v0/b/puppeeter-b221f.appspot.com/o/puppeterLogComp.png?alt=media&token=c8ddf40f-4525-418b-8fb6-31c840ddf3b5"
+export const IMG_LOGO = "https://firebasestorage.googleapis.com/v0/b/puppeeter-b221f.appspot.com/o/puppeterLogComp.png?alt=media&token=f2b2a36d-ba43-43ae-8042-9dc0ae971cd0"
 export const IMG_BG_MAIN = "https://firebasestorage.googleapis.com/v0/b/puppeeter-b221f.appspot.com/o/puppeeterBgLogoComp.png?alt=media&token=fced1592-4c09-4b11-b580-5f9995eadff9"
 export const IMG_CART = "https://firebasestorage.googleapis.com/v0/b/puppeeter-b221f.appspot.com/o/Puppeteer-cart-transformed.webp?alt=media&token=ca8b999f-9d9c-4bbf-b349-372d6c8134f0"
