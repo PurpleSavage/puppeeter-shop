@@ -1,0 +1,11 @@
+.title{
+    background: #ccc;
+    background: linear-gradient(90deg,#530019,#ce0491);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text  ;
+    background-clip: text
+    
+}
+.overload{
+    background:linear-gradient(360deg, rgba(0, 0, 0, 0.8), rgba(37, 36, 36, 0.3),rgba(128, 127, 127, 0.1));
+}
