@@ -37,7 +37,7 @@ const Card: React.FC<{ element: product }> = ({ element }) => {
         <p className='text-md text-center text-white px-3'>
           ¡Sabor explosivo! <br />{description}
         </p>
-        <p>Precio: s/{price}</p>
+        <p className="text-md text-center text-white px-3">Precio: s/{price}</p>
         <div className='flex justify-end'>
           <button 
             className={`${statusProduct(id) ? "bg-gray-400" : "bg-[#8a0645] hover:bg-[#8a0653]"} px-4 text-white py-1 rounded-sm `}

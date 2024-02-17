@@ -31,7 +31,7 @@ const CardsCart:React.FC<{element:product}> = ({element}) => {
             <p className='text-md text-center text-white px-3 '>
                 ¡Sabor explosivo! <br/>{description}
             </p>
-            <p>¨Precio: s/ {price}</p>
+            <p className="text-md text-center text-white px-3">¨Precio: s/ {price}</p>
             <div className="flex items-center gap-4 pb-4">
                 <button 
                     className="bg-[#8a0645] px-4 py-1 rounded-md text-white"
