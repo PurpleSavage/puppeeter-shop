@@ -4,7 +4,7 @@ import { TiShoppingCart } from "react-icons/ti";
 import { MdRemoveShoppingCart } from "react-icons/md";
 import style from '../cssmodules/styles.module.css'
 import { useCartStore } from "../stores/cart/cart.store";
-
+import { useModalStore } from "../stores/cart/modal.store";
 
 const Card: React.FC<{ element: product }> = ({ element }) => {
 
@@ -16,7 +16,7 @@ const Card: React.FC<{ element: product }> = ({ element }) => {
   const addToCart = useCartStore(state => state.addToCart);
   const listCart = useCartStore(state => state.listCart);
   const statusProduct=useCartStore(state=>state.statusProduct)
-
+  const changeState=useModalStore(state=>state.changeState)
  
 
 
@@ -24,7 +24,8 @@ const Card: React.FC<{ element: product }> = ({ element }) => {
   const handleClick = () => {
     const isProductInCart = listCart.some(product => product.id === id);
     if (!isProductInCart) {
-      addToCart(element); 
+      addToCart(element);
+      changeState() 
     }
   };
 

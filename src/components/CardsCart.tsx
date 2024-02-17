@@ -39,7 +39,7 @@ const CardsCart:React.FC<{element:product}> = ({element}) => {
                 ><AiOutlineMinus /></button>
                 <div className="text-white ">{quantity}</div>
                 <button 
-                    className="bg-[#8a0645] px-4 py-1 rounded-md text-white"
+                    className="bg-[#8a0645] hover:bg-[#8a0653] px-4 py-1 rounded-md text-white"
                     onClick={()=>handleClick(+1,element)}
                 ><IoIosAdd /></button>
             </div>

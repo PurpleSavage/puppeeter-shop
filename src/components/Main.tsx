@@ -14,7 +14,7 @@ const Main = () => {
         </div>
         <div className='w-1/2 flex items-center justify-center'>
             {pathname==="/"?<img src={IMG_BG_MAIN } alt="image potato crispy" className='w-[500px]'/>:""}
-            {pathname==="/cart"?<img src={IMG_CART } alt="image potato crispy" className='w-[300px]'/>:"" }
+            {pathname==="/cart"?<img src={IMG_CART } alt="image potato crispy" className='w-[500px]'/>:"" }
         </div>
     </main>
   )

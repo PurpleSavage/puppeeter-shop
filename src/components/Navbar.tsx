@@ -8,7 +8,7 @@ import { useCartStore } from '../stores/cart/cart.store';
 const Navbar = () => {
   const listCart=useCartStore(state=>state.listCart)
   return (
-    <div className='py-4 shadow-xl flex fixed z-50 bottom-o left-0 right-0' style={{ backdropFilter: 'blur(8px)' }}>
+    <div className='py-4 shadow-xl flex fixed z-40 bottom-o left-0 right-0' style={{ backdropFilter: 'blur(8px)' }}>
         <div className='flex items-center grow md:px-16 px-4 gap-2'>
             <img src={IMG_LOGO} alt="triangle neon, logo puppeeter"  className='h-[30px]'/>
             <p className={`${styles.title} text-lg font-bold`}>PUPPETER</p>
