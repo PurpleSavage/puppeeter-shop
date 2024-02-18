@@ -26,6 +26,7 @@ const Card: React.FC<{ element: product }> = ({ element }) => {
     if (!isProductInCart) {
       addToCart(element);
       changeState() 
+      document.body.style.overflow = 'hidden'
     }
   };
 
